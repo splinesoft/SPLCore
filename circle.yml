@@ -15,8 +15,3 @@ test:
     - pod spec lint SPLCore.podspec --quick
   post:
     - rake lint
-deployment:
-  coveralls:
-    branch: /.*/
-    commands:
-      - slather
