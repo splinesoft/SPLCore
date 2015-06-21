@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "SPLCore"
   s.version      = "1.0.1"
   s.summary      = "Splinesoft shared bits."
-  s.homepage     = "http://www.splinesoft.net"
+  s.homepage     = "https://github.com/splinesoft/SPLCore"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Jonathan Hersh" => "jon@her.sh" }
   s.source       = { :git => "https://github.com/splinesoft/SPLCore.git", :tag => s.version.to_s }
