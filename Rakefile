@@ -46,12 +46,12 @@ desc 'Lints SPLCore with various static analyzers'
 task :lint do
 
   puts "\nChecking for CocoaPods updates...".cyan
-  puts `bundle exec pod outdated --project-directory=Tests`
+  sh 'bundle exec pod outdated --project-directory=Tests'
 
   puts "\nLinting file header styles...".cyan
-  puts `bundle exec obcd --path Additions find HeaderStyle`
-  puts `bundle exec obcd --path Models find HeaderStyle`
-  puts `bundle exec obcd --path SPLCore find HeaderStyle`
+  sh 'bundle exec obcd --path SPLCore/Additions find HeaderStyle'
+  sh 'bundle exec obcd --path SPLCore/Models find HeaderStyle'
+  sh 'bundle exec obcd --path SPLCore find HeaderStyle'
 
 end
 

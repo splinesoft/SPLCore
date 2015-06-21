@@ -12,6 +12,6 @@ dependencies:
 test:
   override:
     - rake test
-    - pod spec lint SPLCore.podspec --quick
+    - bundle exec pod spec lint SPLCore.podspec --quick
   post:
     - rake lint
