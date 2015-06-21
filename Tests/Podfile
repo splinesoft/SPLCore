@@ -1,0 +1,17 @@
+source 'https://github.com/splinesoft/specs.git'
+source 'https://github.com/cocoapods/specs.git'
+
+platform :ios, '7.0'
+
+xcodeproj 'SPLCoreTests'
+
+#inhibit_all_warnings!
+
+# Splinesoft
+
+pod 'SPLCore', :path => "../SPLCore.podspec"
+
+target :SPLCoreTestsTests, :exclusive => true do
+    pod 'Expecta'
+    pod 'OCMock'
+end

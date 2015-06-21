@@ -1,0 +1,15 @@
+#Ignore the Mac OS X .DS_Store files
+.DS_Store
+
+*.swp
+*~.nib
+build
+
+xcuserdata/
+*.xccheckout
+
+DerivedData
+Pods/
+
+.bundle
+vendor/bundle
