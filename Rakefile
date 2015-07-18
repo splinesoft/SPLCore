@@ -17,7 +17,7 @@ end
 desc 'Setup the project'
 task :setup do
   puts "Installing bundle...".cyan
-  sh "bundle check --path=vendor/bundle || bundle install --jobs=4 --retry=2 --path=vendor/bundle"
+  sh "bundle install --jobs=4 --retry=2 --path=vendor/bundle"
   
   puts "Installing pods...".cyan
   sh "bundle exec pod install --project-directory=Tests"

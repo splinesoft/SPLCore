@@ -15,3 +15,8 @@ test:
     - bundle exec pod spec lint SPLCore.podspec --quick
   post:
     - rake lint
+deployment:
+  codecov:
+    branch: /.*/
+    commands:
+      - bash <(curl -s https://codecov.io/bash)

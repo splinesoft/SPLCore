@@ -1,4 +1,4 @@
-# SPLCore [![Circle CI](https://circleci.com/gh/splinesoft/SPLCore.svg?style=svg)](https://circleci.com/gh/splinesoft/SPLCore)
+# SPLCore [![Circle CI](https://circleci.com/gh/splinesoft/SPLCore.svg?style=svg)](https://circleci.com/gh/splinesoft/SPLCore) [![Coverage Status](http://codecov.io/github/splinesoft/SPLCore/coverage.svg?branch=master)](http://codecov.io/github/splinesoft/SPLCore?branch=master)
 
 Shared dependencies for [Splinesoft](http://splinesoft.net) apps. SPLCore was extracted from my app [MUDRammer, a Modern MUD Client for iPhone and iPad](https://itunes.apple.com/us/app/mudrammer-a-modern-mud-client/id597157072?mt=8).
 
